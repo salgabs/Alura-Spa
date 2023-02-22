@@ -1,0 +1,30 @@
+@import '../abstract/variaveis';
+
+
+#bemestar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .bemestar-img {
+        margin: 1rem 0;
+    }
+    .bemestar-texto {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        h3 {
+            font-size: $txt-size / 1.7;
+            color: $cor-prim;
+        }
+        h4 {
+            font-size: $txt-size / 2;
+            color: $cor-sec;
+            font-weight: bold;
+        }
+        p {
+            font-size: $txt-size / 2.7;
+            font-weight: bold;
+        }
+    }
+}
